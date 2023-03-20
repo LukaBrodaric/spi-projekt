@@ -1,0 +1,14 @@
+_MACOSX
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook
+
+
+WINDOWS
+
+py -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
